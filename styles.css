@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+  background-color: #161625;
+}
+
+h1,h2{
+  font-family: 'Merriweather', serif;
+}
+
+h3,p{
+  font-family: 'Cutive Mono', monospace;
+}
+div {
+  height: 12.5rem;
+  width: 12.5rem;
+  display: inline-block;
+  margin: 7% 2% 0;
+}
+
+footer{
+  color: #c7b2d6;
+  margin: 120px 0 30px;
+}
+
+
+.social-link{
+  color: #0e76a8;
+}
+.social-link:hover{
+  color: #185ADB;
+}
+
+.site-heading{
+  font-weight: 900;
+  margin: 32px;
+  color: #fff;
+  text-shadow: 4px 4px 10px #9910c7;
+}
+
+.site-info{
+  color: #fff;
+}
+
+.active {
+  background-color: #000;
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: 10px;
+  color: #007bff;
+}
+
+.active:hover {
+  background-color: #000;
+  background-color: rgba(0, 123, 255, 0.3);
+}
+
+.confirmed {
+  border-radius: 10px;
+  background-color: #000;
+  background-color: rgba(255, 7, 58, 0.1);
+  color: #ff073a;
+}
+
+.confirmed:hover {
+  background-color: #000;
+  background-color: rgba(255, 7, 58, 0.3);
+}
+
+.recovered {
+  background-color: #000;
+  background-color: rgba(40, 167, 69, 0.1);
+  border-radius: 10px;
+  color: #28a745;
+}
+
+.recovered:hover {
+  background-color: #000;
+  background-color: rgba(40, 167, 69, 0.3);
+}
+
+.deaths {
+  border-radius: 10px;
+  background-color: #000;
+  background-color: rgba(108,117,125,0.2);
+  color: #6c757d;
+}
+
+.deaths:hover{
+  background-color: #000;
+  background-color: rgba(108,117,125,0.4);
+}
+
+.content{
+  margin-top: 40px;
+}
+
+@media screen and (max-width:550px) {
+   div{
+     display: block;
+     margin: 30px auto;
+   }
+   .content{
+     margin-top: 50px;
+   }
+   .site-info{
+     font-size: 1.2rem;
+   }
+}
